@@ -1,0 +1,62 @@
+{
+  "top3_total": [
+    {
+      "player": "кс-кс чык-чык пф-пф аа",
+      "score": 14127,
+      "counters": {
+        "deaths": 526,
+        "plantationsDestroyed": 0,
+        "outskirtsPlantationsBuilt": 322,
+        "terraformingScore": 83778366,
+        "beaverLodgesDestroyed": 138,
+        "sandStormHPDamageTaken": 49843,
+        "plantationsLostToIsolation": 10844,
+        "kills": 0
+      }
+    },
+    {
+      "player": "#1 private chiwawa club",
+      "score": 11980,
+      "counters": {
+        "plantationsLostToIsolation": 9958,
+        "kills": 23,
+        "deaths": 838,
+        "terraformingScore": 76737701,
+        "plantationsDestroyed": 257,
+        "outskirtsPlantationsBuilt": 0,
+        "beaverLodgesDestroyed": 931,
+        "sandStormHPDamageTaken": 43290
+      }
+    },
+    {
+      "player": "CR/LF",
+      "score": 6496,
+      "counters": {
+        "plantationsLostToIsolation": 2534,
+        "kills": 0,
+        "plantationsDestroyed": 0,
+        "outskirtsPlantationsBuilt": 12,
+        "beaverLodgesDestroyed": 201,
+        "deaths": 678,
+        "terraformingScore": 40190051,
+        "sandStormHPDamageTaken": 41195
+      }
+    }
+  ],
+  "subschool_total": {
+    "player": "SubSchool",
+    "score": 795,
+    "attempt": 0,
+    "counters": {
+      "outskirtsPlantationsBuilt": 0,
+      "plantationsLostToIsolation": 50,
+      "kills": 0,
+      "beaverLodgesDestroyed": 0,
+      "terraformingScore": 2020889,
+      "plantationsDestroyed": 0,
+      "sandStormHPDamageTaken": 2509,
+      "deaths": 2871
+    },
+    "endedAt": "2026-04-18T13:58:00Z"
+  }
+}

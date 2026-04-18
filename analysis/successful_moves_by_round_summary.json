@@ -1,0 +1,427 @@
+{
+  "datssol-test-26": {
+    "accepted_commands": 42,
+    "upgrade_commands": 8,
+    "relocate_commands": 2
+  },
+  "unmatched": {
+    "accepted_commands": 475,
+    "upgrade_commands": 53,
+    "relocate_commands": 21
+  },
+  "datssol-test-27": {
+    "accepted_commands": 23,
+    "upgrade_commands": 1,
+    "relocate_commands": 2
+  },
+  "datssol-test-28": {
+    "accepted_commands": 18,
+    "upgrade_commands": 1,
+    "relocate_commands": 1
+  },
+  "datssol-test-29": {
+    "accepted_commands": 394,
+    "upgrade_commands": 18,
+    "relocate_commands": 25
+  },
+  "datssol-test-30": {
+    "accepted_commands": 277,
+    "upgrade_commands": 17,
+    "relocate_commands": 13
+  },
+  "datssol-test-31": {
+    "accepted_commands": 345,
+    "upgrade_commands": 13,
+    "relocate_commands": 17
+  },
+  "datssol-test-32": {
+    "accepted_commands": 522,
+    "upgrade_commands": 17,
+    "relocate_commands": 36
+  },
+  "datssol-test-33": {
+    "accepted_commands": 503,
+    "upgrade_commands": 20,
+    "relocate_commands": 31
+  },
+  "datssol-test-34": {
+    "accepted_commands": 511,
+    "upgrade_commands": 19,
+    "relocate_commands": 34
+  },
+  "datssol-test-35": {
+    "accepted_commands": 509,
+    "upgrade_commands": 20,
+    "relocate_commands": 35
+  },
+  "datssol-test-36": {
+    "accepted_commands": 527,
+    "upgrade_commands": 17,
+    "relocate_commands": 43
+  },
+  "datssol-test-37": {
+    "accepted_commands": 506,
+    "upgrade_commands": 19,
+    "relocate_commands": 22
+  },
+  "datssol-test-38": {
+    "accepted_commands": 487,
+    "upgrade_commands": 21,
+    "relocate_commands": 40
+  },
+  "datssol-test-39": {
+    "accepted_commands": 340,
+    "upgrade_commands": 16,
+    "relocate_commands": 25
+  },
+  "datssol-test-40": {
+    "accepted_commands": 458,
+    "upgrade_commands": 20,
+    "relocate_commands": 40
+  },
+  "datssol-test-42": {
+    "accepted_commands": 162,
+    "upgrade_commands": 17,
+    "relocate_commands": 15
+  },
+  "datssol-test-43": {
+    "accepted_commands": 180,
+    "upgrade_commands": 17,
+    "relocate_commands": 17
+  },
+  "datssol-test-44": {
+    "accepted_commands": 505,
+    "upgrade_commands": 17,
+    "relocate_commands": 42
+  },
+  "datssol-test-45": {
+    "accepted_commands": 522,
+    "upgrade_commands": 18,
+    "relocate_commands": 47
+  },
+  "datssol-test-46": {
+    "accepted_commands": 515,
+    "upgrade_commands": 22,
+    "relocate_commands": 46
+  },
+  "datssol-test-47": {
+    "accepted_commands": 522,
+    "upgrade_commands": 17,
+    "relocate_commands": 46
+  },
+  "datssol-test-48": {
+    "accepted_commands": 519,
+    "upgrade_commands": 21,
+    "relocate_commands": 44
+  },
+  "datssol-test-49": {
+    "accepted_commands": 516,
+    "upgrade_commands": 19,
+    "relocate_commands": 40
+  },
+  "datssol-test-50": {
+    "accepted_commands": 509,
+    "upgrade_commands": 17,
+    "relocate_commands": 41
+  },
+  "datssol-test-51": {
+    "accepted_commands": 523,
+    "upgrade_commands": 18,
+    "relocate_commands": 48
+  },
+  "datssol-test-52": {
+    "accepted_commands": 498,
+    "upgrade_commands": 19,
+    "relocate_commands": 32
+  },
+  "datssol-test-53": {
+    "accepted_commands": 526,
+    "upgrade_commands": 19,
+    "relocate_commands": 46
+  },
+  "datssol-test-54": {
+    "accepted_commands": 417,
+    "upgrade_commands": 19,
+    "relocate_commands": 17
+  },
+  "datssol-test-55": {
+    "accepted_commands": 309,
+    "upgrade_commands": 16,
+    "relocate_commands": 0
+  },
+  "datssol-test-56": {
+    "accepted_commands": 322,
+    "upgrade_commands": 19,
+    "relocate_commands": 1
+  },
+  "datssol-test-57": {
+    "accepted_commands": 337,
+    "upgrade_commands": 15,
+    "relocate_commands": 0
+  },
+  "datssol-test-58": {
+    "accepted_commands": 321,
+    "upgrade_commands": 16,
+    "relocate_commands": 0
+  },
+  "datssol-test-59": {
+    "accepted_commands": 330,
+    "upgrade_commands": 16,
+    "relocate_commands": 0
+  },
+  "datssol-test-60": {
+    "accepted_commands": 307,
+    "upgrade_commands": 18,
+    "relocate_commands": 0
+  },
+  "datssol-test-61": {
+    "accepted_commands": 303,
+    "upgrade_commands": 15,
+    "relocate_commands": 0
+  },
+  "datssol-test-62": {
+    "accepted_commands": 335,
+    "upgrade_commands": 18,
+    "relocate_commands": 2
+  },
+  "datssol-test-63": {
+    "accepted_commands": 432,
+    "upgrade_commands": 16,
+    "relocate_commands": 15
+  },
+  "datssol-test-64": {
+    "accepted_commands": 435,
+    "upgrade_commands": 16,
+    "relocate_commands": 20
+  },
+  "datssol-test-65": {
+    "accepted_commands": 437,
+    "upgrade_commands": 17,
+    "relocate_commands": 10
+  },
+  "datssol-test-66": {
+    "accepted_commands": 440,
+    "upgrade_commands": 16,
+    "relocate_commands": 11
+  },
+  "datssol-test-67": {
+    "accepted_commands": 432,
+    "upgrade_commands": 17,
+    "relocate_commands": 0
+  },
+  "datssol-test-68": {
+    "accepted_commands": 429,
+    "upgrade_commands": 16,
+    "relocate_commands": 0
+  },
+  "datssol-test-69": {
+    "accepted_commands": 424,
+    "upgrade_commands": 16,
+    "relocate_commands": 0
+  },
+  "datssol-test-70": {
+    "accepted_commands": 457,
+    "upgrade_commands": 18,
+    "relocate_commands": 0
+  },
+  "datssol-test-71": {
+    "accepted_commands": 448,
+    "upgrade_commands": 21,
+    "relocate_commands": 0
+  },
+  "datssol-test-72": {
+    "accepted_commands": 457,
+    "upgrade_commands": 16,
+    "relocate_commands": 0
+  },
+  "datssol-test-73": {
+    "accepted_commands": 450,
+    "upgrade_commands": 17,
+    "relocate_commands": 15
+  },
+  "datssol-test-74": {
+    "accepted_commands": 450,
+    "upgrade_commands": 15,
+    "relocate_commands": 15
+  },
+  "datssol-test-75": {
+    "accepted_commands": 455,
+    "upgrade_commands": 17,
+    "relocate_commands": 8
+  },
+  "datssol-test-76": {
+    "accepted_commands": 462,
+    "upgrade_commands": 18,
+    "relocate_commands": 10
+  },
+  "datssol-test-77": {
+    "accepted_commands": 455,
+    "upgrade_commands": 15,
+    "relocate_commands": 11
+  },
+  "datssol-test-78": {
+    "accepted_commands": 439,
+    "upgrade_commands": 15,
+    "relocate_commands": 8
+  },
+  "datssol-test-79": {
+    "accepted_commands": 452,
+    "upgrade_commands": 16,
+    "relocate_commands": 9
+  },
+  "datssol-test-80": {
+    "accepted_commands": 445,
+    "upgrade_commands": 18,
+    "relocate_commands": 2
+  },
+  "datssol-test-81": {
+    "accepted_commands": 460,
+    "upgrade_commands": 17,
+    "relocate_commands": 0
+  },
+  "datssol-test-82": {
+    "accepted_commands": 328,
+    "upgrade_commands": 17,
+    "relocate_commands": 0
+  },
+  "datssol-test-83": {
+    "accepted_commands": 409,
+    "upgrade_commands": 15,
+    "relocate_commands": 0
+  },
+  "datssol-test-84": {
+    "accepted_commands": 396,
+    "upgrade_commands": 16,
+    "relocate_commands": 0
+  },
+  "datssol-test-85": {
+    "accepted_commands": 398,
+    "upgrade_commands": 16,
+    "relocate_commands": 0
+  },
+  "datssol-test-86": {
+    "accepted_commands": 410,
+    "upgrade_commands": 19,
+    "relocate_commands": 0
+  },
+  "datssol-test-87": {
+    "accepted_commands": 403,
+    "upgrade_commands": 19,
+    "relocate_commands": 0
+  },
+  "datssol-test-88": {
+    "accepted_commands": 407,
+    "upgrade_commands": 19,
+    "relocate_commands": 0
+  },
+  "datssol-test-89": {
+    "accepted_commands": 420,
+    "upgrade_commands": 19,
+    "relocate_commands": 0
+  },
+  "datssol-test-90": {
+    "accepted_commands": 419,
+    "upgrade_commands": 16,
+    "relocate_commands": 13
+  },
+  "datssol-test-91": {
+    "accepted_commands": 409,
+    "upgrade_commands": 17,
+    "relocate_commands": 28
+  },
+  "datssol-test-92": {
+    "accepted_commands": 434,
+    "upgrade_commands": 15,
+    "relocate_commands": 22
+  },
+  "datssol-test-93": {
+    "accepted_commands": 429,
+    "upgrade_commands": 12,
+    "relocate_commands": 17
+  },
+  "datssol-test-94": {
+    "accepted_commands": 423,
+    "upgrade_commands": 13,
+    "relocate_commands": 23
+  },
+  "datssol-test-95": {
+    "accepted_commands": 429,
+    "upgrade_commands": 17,
+    "relocate_commands": 21
+  },
+  "datssol-test-96": {
+    "accepted_commands": 425,
+    "upgrade_commands": 20,
+    "relocate_commands": 25
+  },
+  "datssol-test-97": {
+    "accepted_commands": 356,
+    "upgrade_commands": 18,
+    "relocate_commands": 9
+  },
+  "datssol-test-98": {
+    "accepted_commands": 293,
+    "upgrade_commands": 14,
+    "relocate_commands": 4
+  },
+  "datssol-test-99": {
+    "accepted_commands": 322,
+    "upgrade_commands": 15,
+    "relocate_commands": 4
+  },
+  "datssol-test-100": {
+    "accepted_commands": 181,
+    "upgrade_commands": 10,
+    "relocate_commands": 3
+  },
+  "datssol-test-101": {
+    "accepted_commands": 205,
+    "upgrade_commands": 11,
+    "relocate_commands": 3
+  },
+  "datssol-test-102": {
+    "accepted_commands": 329,
+    "upgrade_commands": 16,
+    "relocate_commands": 10
+  },
+  "datssol-test-103": {
+    "accepted_commands": 351,
+    "upgrade_commands": 14,
+    "relocate_commands": 7
+  },
+  "datssol-test-104": {
+    "accepted_commands": 347,
+    "upgrade_commands": 16,
+    "relocate_commands": 8
+  },
+  "datssol-test-105": {
+    "accepted_commands": 313,
+    "upgrade_commands": 14,
+    "relocate_commands": 8
+  },
+  "datssol-test-128": {
+    "accepted_commands": 324,
+    "upgrade_commands": 14,
+    "relocate_commands": 8
+  },
+  "datssol-test-129": {
+    "accepted_commands": 371,
+    "upgrade_commands": 16,
+    "relocate_commands": 10
+  },
+  "datssol-test-130": {
+    "accepted_commands": 330,
+    "upgrade_commands": 18,
+    "relocate_commands": 8
+  },
+  "datssol-test-131": {
+    "accepted_commands": 256,
+    "upgrade_commands": 14,
+    "relocate_commands": 5
+  },
+  "final-datssol-1": {
+    "accepted_commands": 122,
+    "upgrade_commands": 8,
+    "relocate_commands": 1
+  }
+}

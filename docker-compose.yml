@@ -1,0 +1,69 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: dats-sol-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-dats_sol}
+      POSTGRES_USER: ${POSTGRES_USER:-dats}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dats}
+    ports:
+      - "${POSTGRES_PORT:-55432}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-dats} -d ${POSTGRES_DB:-dats_sol}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+    container_name: dats-sol-backend
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://dats:dats@postgres:5432/dats_sol}
+      TICK_INTERVAL_MS: ${TICK_INTERVAL_MS:-1000}
+      PROVIDER_POLL_INTERVAL_MS: ${PROVIDER_POLL_INTERVAL_MS:-250}
+      GAME_PROVIDER: ${GAME_PROVIDER:-datssol-mock}
+      DATSSOL_BASE_URL: ${DATSSOL_BASE_URL:-https://games-test.datsteam.dev}
+      DATSSOL_STATS_URL: ${DATSSOL_STATS_URL:-https://games-test.datsteam.dev/stats/d596e058-a080-305b-f380-68b0753bcb9c}
+      DATSSOL_TEAM_NAME: ${DATSSOL_TEAM_NAME:-SubSchool}
+      DATSSOL_AUTH_TOKEN: ${DATSSOL_AUTH_TOKEN:-}
+      DATSSOL_SUBMIT_ENABLED: ${DATSSOL_SUBMIT_ENABLED:-false}
+      APP_BUILD_ID: ${APP_BUILD_ID:-dev}
+      DATSSOL_REQUEST_TIMEOUT_SECONDS: ${DATSSOL_REQUEST_TIMEOUT_SECONDS:-0.7}
+      DATSSOL_CONNECT_TIMEOUT_SECONDS: ${DATSSOL_CONNECT_TIMEOUT_SECONDS:-0.3}
+      DATSSOL_ROUND_TRIP_TIMEOUT_SECONDS: ${DATSSOL_ROUND_TRIP_TIMEOUT_SECONDS:-0.9}
+      DATSSOL_OBSERVE_REQUEST_TIMEOUT_SECONDS: ${DATSSOL_OBSERVE_REQUEST_TIMEOUT_SECONDS:-0.65}
+      DATSSOL_OBSERVE_CONNECT_TIMEOUT_SECONDS: ${DATSSOL_OBSERVE_CONNECT_TIMEOUT_SECONDS:-0.3}
+      DATSSOL_OBSERVE_ROUND_TRIP_TIMEOUT_SECONDS: ${DATSSOL_OBSERVE_ROUND_TRIP_TIMEOUT_SECONDS:-0.9}
+      DATSSOL_SUBMIT_REQUEST_TIMEOUT_SECONDS: ${DATSSOL_SUBMIT_REQUEST_TIMEOUT_SECONDS:-0.55}
+      DATSSOL_SUBMIT_CONNECT_TIMEOUT_SECONDS: ${DATSSOL_SUBMIT_CONNECT_TIMEOUT_SECONDS:-0.3}
+      DATSSOL_SUBMIT_ROUND_TRIP_TIMEOUT_SECONDS: ${DATSSOL_SUBMIT_ROUND_TRIP_TIMEOUT_SECONDS:-0.85}
+      LIVE_ENABLE_SPECULATIVE_SUBMIT: ${LIVE_ENABLE_SPECULATIVE_SUBMIT:-false}
+      LIVE_MAX_INFLIGHT_OBSERVE: ${LIVE_MAX_INFLIGHT_OBSERVE:-1}
+      LIVE_MAX_INFLIGHT_SUBMIT: ${LIVE_MAX_INFLIGHT_SUBMIT:-1}
+      LIVE_STALE_OBSERVE_SECONDS: ${LIVE_STALE_OBSERVE_SECONDS:-1.1}
+      LIVE_STALE_SUBMIT_SECONDS: ${LIVE_STALE_SUBMIT_SECONDS:-1.0}
+      STATS_POLL_INTERVAL_SECONDS: ${STATS_POLL_INTERVAL_SECONDS:-60}
+      STATS_REQUEST_TIMEOUT_SECONDS: ${STATS_REQUEST_TIMEOUT_SECONDS:-8}
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: dats-sol-frontend
+    environment:
+      VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8000/api}
+      VITE_WS_BASE_URL: ${VITE_WS_BASE_URL:-ws://localhost:8000/ws/telemetry}
+    ports:
+      - "${FRONTEND_PORT:-5173}:5173"
+    depends_on:
+      - backend
+
+volumes:
+  postgres-data:
